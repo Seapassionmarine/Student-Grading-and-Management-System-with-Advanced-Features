@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require(`cors`)
-const router = require('./router/userRouter')
+const router = require('./router/teacherRouter')
 const studentrouter = require ("./router/studentRouter")
 require('./config/dbconfig')
 

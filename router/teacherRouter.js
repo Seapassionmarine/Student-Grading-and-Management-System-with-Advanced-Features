@@ -1,6 +1,6 @@
 const express = require(`express`)
 const upload = require("../utils/multer")
-const { signUp, loginUser, verifyEmail, resendVerificationEmail, forgotPassword, changePassword, resetPassword, getOne, getAll, makeAdmin, deleteUser, updateScore, deleteStudent, logOut } = require("../controller/userController")
+const { signUp, loginUser, verifyEmail, resendVerificationEmail, forgotPassword, changePassword, resetPassword, getOne, getAll, makeAdmin, deleteUser, updateScore, deleteStudent, logOut } = require("../controller/teacherController")
 const { authorize, isAdmin } = require("../middleware/auth copy")
 const router = express.Router()
 
